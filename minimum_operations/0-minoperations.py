@@ -14,7 +14,7 @@ def minOperations(n: int) -> int:
             n //= factor
         factor += 1
 
-    # Any remaining value greater than 1 is prime.
+    # Any remaining value greater than 1 is prime
     if n > 1:
         operations += n
 
