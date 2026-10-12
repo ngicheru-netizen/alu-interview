@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+"""Calculate the minimum copy-and-paste operations needed to reach n."""
 
 
 def minOperations(n: int) -> int:
+    """Return the fewest operations needed to produce n characters."""
     if n <= 1:
         return 0
 
